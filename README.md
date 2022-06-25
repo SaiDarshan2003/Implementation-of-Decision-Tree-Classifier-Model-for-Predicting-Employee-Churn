@@ -17,13 +17,10 @@ To write a program to implement the Decision Tree Classifier Model for Predictin
 10. Predict the result for the given values.
 ## Program:
 ```
-Program to implement the Decision Tree Classifier Model for Predicting Employee Churn.
 Developed by: Sai Darshan G
 RegisterNumber:  212221240047
 import pandas as pd
 data=pd.read_csv("Employee.csv")
-data.head()
-data.info()
 data.isnull().sum()
 data["left"].value_counts()
 from sklearn.preprocessing import LabelEncoder
